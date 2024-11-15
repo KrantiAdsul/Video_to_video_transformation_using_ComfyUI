@@ -1,4 +1,7 @@
+To run this implementation, load the above JSON file in ComfyUI and install all required custom nodes using 'Manager'! and then just run 'Queue Prompt' !
+
 •	Created a small application for Video-to-Video transformation using Comfy UI’s custom nodes
+
 •	Application took a MP4 video as input, transformed this according to user’s positive & negative prompt & generated an output MP4 video. Following components were used in building this:
 1. Load Video(custom block): This block is used to import the original video that you want to transform. It loads each frame into the pipeline, making them accessible for subsequent processing steps.
 2. Load Checkpoint: Loads the pre-trained model checkpoint, which contains the weights and architecture needed for the specific transformations. This checkpoint often determines the style or type of transformation (e.g., artistic style, anime style).
